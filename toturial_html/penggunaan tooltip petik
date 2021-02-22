@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>penggunaan tooltip petik</h2>
+
+<p title='Aldin "Satria" Kelfin'>My team dengan petik satu</p>
+<p title="Aldin 'Satria' Kelfin">My team dengan petik dua</p>
+
+</body>
+</html>
