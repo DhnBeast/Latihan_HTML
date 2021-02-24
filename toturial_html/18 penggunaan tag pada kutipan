@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Penggunaan blockquote</h2>
+<p>Elemen HTML mendefinisikan bagian yang dikutip dari sumber lain.</p>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For nearly 60 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by more than one million members in the United States and close to five million globally.
+</blockquote>
+<br>
+
+<h2>Penggunaan q</h2>
+<p>Tag HTML mendefinisikan kutipan singkat dengan menambah kutip ganda .</p>
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<br>
+
+<h2>Penggunaan abbr</h2>
+<p>Tag HTML mendefinisikan singkatan atau akronim, seperti "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".<br>
+
+Menandai singkatan dapat memberikan informasi yang berguna untuk browser, sistem terjemahan, dan mesin pencari.biasanya yang ditag akan diberikan titik dibawah teks</p>
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<br>
+
+<h2>Penggunaan address</h2>
+<p>ag HTML mendefinisikan informasi kontak untuk penulis / pemilik dokumen atau artikel.
+
+Informasi kontak dapat berupa alamat email, URL, alamat fisik, nomor telepon, pegangan media sosial, dll.
+
+Teks dalam <address>elemen biasanya dibuat miring, dan browser akan selalu menambahkan jeda baris sebelum dan sesudah </address>elemen.</p>
+<address>
+Wahyu Hamdani.<br> 
+18030032<br>
+Informatika<br>
+Institut Teknologi Dirgantara Adisutjipto<br>
+Yogyakarta
+</address>
+
+<br>
+
+<h2>Penggunaan cite</h2>
+<p>Tag HTML mendefinisikan judul sebuah karya kreatif (mis. Buku, puisi, lagu, film, lukisan, patung, dll.).<br>Teks dalam <cite> elemen cite biasanya dicetak miring.</cite></p>
+<img src="img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+<br>
+
+<h2>Penggunaan bdo</h2>
+<p>Tag HTML digunakan untuk mengganti arah teks saat ini:</p>
+<bdo dir="rtl">u evol i</bdo>
+
+
+
+</body>
+</html>
