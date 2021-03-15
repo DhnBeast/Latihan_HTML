@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="https://cdn.mos.cms.futurecdn.net/PRr4fvsUGCk6HP2MGrEcwk.jpg">
+  <source media="(min-width: 465px)" srcset="https://s.staticneo.com/mg/2021/01/assassinscreed0t4WJ_display.jpg">
+  <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/large/public/field/image/2020/04/assassins-creed-all-main-assassins-hero.jpg?itok=zdYbKdHI" style="width:auto;">
+</picture>
+
+<p>"picture" Elemen HTML memberi pengembang web lebih banyak fleksibilitas dalam menentukan sumber daya gambar. The "picture" elemen berisi satu atau lebih "source" elemen, masing-masing mengacu pada gambar yang berbeda melalui srcset atribut. Dengan cara ini browser dapat memilih gambar yang paling sesuai dengan tampilan dan / atau perangkat saat ini.
+Setiap "source" elemen memiliki mediaatribut yang menentukan kapan gambar tersebut paling sesuai.
+</p>
+
+<p>Ada dua tujuan utama "picture" elemen:</p>
+<h3>1. Bandwidth</h3>
+<p>Jika Anda memiliki layar atau perangkat kecil, tidak perlu memuat file gambar besar. Browser akan menggunakan "source" elemen pertama dengan nilai atribut yang cocok, dan mengabaikan salah satu elemen berikut.</p>
+
+<h3>2. Dukungan Format</h3>
+<p>Beberapa browser atau perangkat mungkin tidak mendukung semua format gambar. Dengan menggunakan "picture" elemen, Anda dapat menambahkan gambar dari semua format, dan browser akan menggunakan format pertama yang dikenali, dan mengabaikan salah satu elemen berikut.</p>
+
+</body>
+</html>
