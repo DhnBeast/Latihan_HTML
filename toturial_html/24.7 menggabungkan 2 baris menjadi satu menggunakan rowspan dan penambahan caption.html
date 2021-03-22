@@ -14,6 +14,16 @@ td {
   padding: 5px;
   text-align: left;    
 }
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
 </style>
 </head>
 <body>
@@ -23,20 +33,29 @@ td {
 <h2>Table Caption</h2>
 <p>Untuk menambahkan keterangan ke tabel, gunakan  caption tag:</p>
 
-<table style="width:100%">
+<table style="width:100%" id="t01">
 	<caption>Keuntungan Berbelanja di toko kami</caption>
   <tr>
     <th>Point</th>
     <th>Manfaat</th>
   </tr>
   <tr>
-    <th rowspan="2" >
+    <td rowspan="2" >
     	<a href="https://shopee.co.id/loveliacraft" target="_blank">Membeli Di Loveliacarft</a> 
-    </th>
+    </td>
     <td>harga murah</td>
   </tr>
   <tr>
     <td>Barang berkualitas</td>
+  </tr>
+    <tr>
+    <td rowspan="2" >
+    	<a href="https://github.com/DhnBeast" target="_blank">kunjungi github kami</a> 
+    </td>
+    <td>inovatif</td>
+  </tr>
+  <tr>
+    <td>terupdate</td>
   </tr>
 </table>
 
